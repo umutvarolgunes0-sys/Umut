@@ -1,0 +1,22 @@
+{
+  "name": "mp3-radio",
+  "version": "1.0.0",
+  "description": "101dunyasi Okey & Radyo - WebRTC sesli sohbet ve Neon tabanli Oto-DJ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "pg": "^8.23.0",
+    "socket.io": "^4.8.4"
+  }
+}
